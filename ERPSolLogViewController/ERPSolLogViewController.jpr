@@ -288,10 +288,6 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolSCMViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="Resource Bundle Variable Resolver"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -300,23 +296,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolTemplateView.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolFMSViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolWCPViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolIMSViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolGLSViewLib.jar"/>
+            <value n="id" v="ERPSolAMSViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -324,11 +304,39 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolAMSViewLib.jar"/>
+            <value n="id" v="ERPSolFMSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGlobalModelLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGlobalViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGLSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolIMSViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
             <value n="id" v="ERPSolPMSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolSCMViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolTemplateView.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolWCPViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -338,6 +346,78 @@
       </list>
       <hash n="internalDefinitions">
          <list n="libraryDefinitions">
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolAMSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolAMSViewLib.jar"/>
+               <value n="id" v="ERPSolAMSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolAPSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolAPSViewLib.jar"/>
+               <value n="id" v="ERPSolAPSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolFMSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolFMSViewLib.jar"/>
+               <value n="id" v="ERPSolFMSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolGlobalModelLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolGlobalModelLib.jar"/>
+               <value n="id" v="ERPSolGlobalModelLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolGlobalViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolGlobalViewLib.jar"/>
+               <value n="id" v="ERPSolGlobalViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolGLSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolGLSViewLib.jar"/>
+               <value n="id" v="ERPSolGLSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolIMSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolIMSViewLib.jar"/>
+               <value n="id" v="ERPSolIMSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../ERPSolLOGLib/ERPSolPMSViewLib.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="ERPSolPMSViewLib.jar"/>
+               <value n="id" v="ERPSolPMSViewLib.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
             <hash>
                <list n="classPath">
                   <url path="../ERPSolLOGLib/ERPSolSCMViewLib.jar" jar-entry=""/>
@@ -358,65 +438,11 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolFMSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolFMSViewLib.jar"/>
-               <value n="id" v="ERPSolFMSViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
                   <url path="../ERPSolLOGLib/ERPSolWCPViewLib.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="ERPSolWCPViewLib.jar"/>
                <value n="id" v="ERPSolWCPViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolIMSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolIMSViewLib.jar"/>
-               <value n="id" v="ERPSolIMSViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolGLSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolGLSViewLib.jar"/>
-               <value n="id" v="ERPSolGLSViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolAPSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolAPSViewLib.jar"/>
-               <value n="id" v="ERPSolAPSViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolAMSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolAMSViewLib.jar"/>
-               <value n="id" v="ERPSolAMSViewLib.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url path="../ERPSolLOGLib/ERPSolPMSViewLib.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="ERPSolPMSViewLib.jar"/>
-               <value n="id" v="ERPSolPMSViewLib.jar"/>
                <value n="locked" v="true"/>
             </hash>
             <hash>
@@ -540,10 +566,6 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolSCMViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="Resource Bundle Variable Resolver"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -552,27 +574,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolTemplateView.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <url n="id" path="ADF_Library_Dependencies.library"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolFMSViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolWCPViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolIMSViewLib.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ERPSolGLSViewLib.jar"/>
+            <value n="id" v="ERPSolAMSViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -580,11 +582,39 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="ERPSolAMSViewLib.jar"/>
+            <value n="id" v="ERPSolFMSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGlobalModelLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGlobalViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolGLSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolIMSViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
             <value n="id" v="ERPSolPMSViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolSCMViewLib.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolTemplateView.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ERPSolWCPViewLib.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>

@@ -1,6 +1,6 @@
 <References xmlns="http://xmlns.oracle.com/adf/jndi">
-  <Reference name="EROSolIMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="EROSolIMSConn" xmlns="">
+  <Reference name="ERPMobLoginConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobLoginConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -10,32 +10,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="port">
-        <Contents>1521</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="hostname">
-        <Contents>151.106.42.167</Contents>
-      </StringRefAddr>
-      <SecureRefAddr addrType="password"/>
-      <StringRefAddr addrType="oraDriverType">
-        <Contents>thin</Contents>
-      </StringRefAddr>
-    </RefAddresses>
-  </Reference>
-  <Reference name="ERPSolAMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolAMSConn" xmlns="">
-    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
-    <RefAddresses>
-      <StringRefAddr addrType="sid">
-        <Contents>orcl</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="subtype">
-        <Contents>oraJDBC</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
+        <Contents>mobilize</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="hostname">
         <Contents>151.106.42.167</Contents>
@@ -49,8 +24,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolAPSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolAPSConn" xmlns="">
+  <Reference name="ERPMobAMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobAMSConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -60,32 +35,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="hostname">
-        <Contents>151.106.42.167</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="port">
-        <Contents>1521</Contents>
-      </StringRefAddr>
-      <SecureRefAddr addrType="password"/>
-      <StringRefAddr addrType="oraDriverType">
-        <Contents>thin</Contents>
-      </StringRefAddr>
-    </RefAddresses>
-  </Reference>
-  <Reference name="ERPSolFMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolFMSConn" xmlns="">
-    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
-    <RefAddresses>
-      <StringRefAddr addrType="sid">
-        <Contents>orcl</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="subtype">
-        <Contents>oraJDBC</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
+        <Contents>mobilize</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
@@ -99,8 +49,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolGlobalConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolGlobalConn" xmlns="">
+  <Reference name="ERPMobAPSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobAPSConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -110,7 +60,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
+        <Contents>mobilize</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
@@ -124,8 +74,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolGLSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolGLSConn" xmlns="">
+  <Reference name="ERPMobFMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobFMSConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -135,57 +85,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="hostname">
-        <Contents>151.106.42.167</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="port">
-        <Contents>1521</Contents>
-      </StringRefAddr>
-      <SecureRefAddr addrType="password"/>
-      <StringRefAddr addrType="oraDriverType">
-        <Contents>thin</Contents>
-      </StringRefAddr>
-    </RefAddresses>
-  </Reference>
-  <Reference name="ERPSolLoginConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolLoginConn" xmlns="">
-    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
-    <RefAddresses>
-      <StringRefAddr addrType="sid">
-        <Contents>orcl</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="subtype">
-        <Contents>oraJDBC</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="hostname">
-        <Contents>151.106.42.167</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="port">
-        <Contents>1521</Contents>
-      </StringRefAddr>
-      <SecureRefAddr addrType="password"/>
-      <StringRefAddr addrType="oraDriverType">
-        <Contents>thin</Contents>
-      </StringRefAddr>
-    </RefAddresses>
-  </Reference>
-  <Reference name="ERPSolSCMConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolSCMConn" xmlns="">
-    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
-    <RefAddresses>
-      <StringRefAddr addrType="sid">
-        <Contents>orcl</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="subtype">
-        <Contents>oraJDBC</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
+        <Contents>MOBILIZE</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
@@ -199,8 +99,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolTemplateConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolTemplateConn" xmlns="">
+  <Reference name="ERPMobGlobalConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobGlobalConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -210,32 +110,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>QSHOP</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="hostname">
-        <Contents>151.106.42.167</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="port">
-        <Contents>1521</Contents>
-      </StringRefAddr>
-      <SecureRefAddr addrType="password"/>
-      <StringRefAddr addrType="oraDriverType">
-        <Contents>thin</Contents>
-      </StringRefAddr>
-    </RefAddresses>
-  </Reference>
-  <Reference name="ERPSolWTYConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolWTYConn" xmlns="">
-    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
-    <RefAddresses>
-      <StringRefAddr addrType="sid">
-        <Contents>orcl</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="subtype">
-        <Contents>oraJDBC</Contents>
-      </StringRefAddr>
-      <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
+        <Contents>MOBILIZE</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
@@ -249,8 +124,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolWOMConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolWOMConn" xmlns="">
+  <Reference name="ERPMobGLSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobGLSConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -260,7 +135,7 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
+        <Contents>MOBILIZE</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
@@ -274,8 +149,8 @@
       </StringRefAddr>
     </RefAddresses>
   </Reference>
-  <Reference name="ERPSolPMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
-             credentialStoreKey="ERPSolPMSConn" xmlns="">
+  <Reference name="ERPMobIMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobIMSConn" xmlns="">
     <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
     <RefAddresses>
       <StringRefAddr addrType="sid">
@@ -285,7 +160,107 @@
         <Contents>oraJDBC</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="user">
-        <Contents>qshop</Contents>
+        <Contents>MOBILIZE</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>151.106.42.167</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ERPMobPMSConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobPMSConn" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>orcl</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>mobilize</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>151.106.42.167</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ERPMobSCMConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobSCMConn" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>orcl</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>MOBILIZE</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>151.106.42.167</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ERPMobTemplateConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobTemplateConn" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>orcl</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>MOBILIZE</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>151.106.42.167</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ERPMobWOMConn" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ERPMobWOMConn" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>orcl</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>MOBILIZE</Contents>
       </StringRefAddr>
       <StringRefAddr addrType="port">
         <Contents>1521</Contents>
