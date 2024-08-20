@@ -35,8 +35,11 @@
                                                 <af:panelGridLayout id="pgl4">
                                                     <af:gridRow id="gr8" marginBottom="10px">
                                                         <af:gridCell id="gc11" halign="stretch" width="auto">
+                                                            <af:image source="#{resource['images:imgMobilizeLogo.png']}"
+                                                                      id="i2" inlineStyle="width:200px"/>
                                                             <af:outputText value="Welcome To HAWK" id="ot1"
-                                                                           inlineStyle="font-size:large; color:#565967;font-weight:bold"/>
+                                                                           inlineStyle="font-size:large; color:#565967;font-weight:bold"
+                                                                           rendered="false"/>
                                                         </af:gridCell>
                                                     </af:gridRow>
                                                     <af:gridRow height="auto" id="gr4">
